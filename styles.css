@@ -1,0 +1,265 @@
+@media screen and (min-width: 320px) {
+
+body{
+  background-color: black;
+  left margin-left:2px ;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color:white;
+  font-family: Indie,cursive;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR);
+  background-size: cover;
+
+}
+
+header{
+  height: 100%;
+  margin-top: 0px;
+}
+
+#abt1{
+  text-align: right;
+  color: white;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR);
+  background-repeat: repeat;
+
+}
+
+.header{
+    opacity: none;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+
+  }
+
+#fixed{
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    overflow: visible;
+    background-color:;
+    opacity: 20%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR);
+
+
+  }
+
+
+/* ++++++++++++++++++++++++++++++++++Nav styling start+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+nav{
+  text-decoration: none;
+  float: none;
+  width: 100%;
+  height: 50px;
+  font-size: 30;
+    border-left: none;
+  border-right: none;
+  text-align: right;
+  background-color:;
+  padding: 3px;
+  margin: 2px;
+  height: 100%;
+  padding-right: 0px;
+
+}
+
+
+
+
+
+/* individual styling of nav elements */
+.nav_elem{
+  margin:30px;
+  width: 300px;
+  height: 800px;
+  padding-left: 10px;
+  padding-right: 15px;
+  font-size: 20px;
+  border-left: 20px;
+  border-right: 20px;
+  border-color: blue;
+  border-width: thick;
+  text-decoration: none;
+  text-align:right;
+  border: 0.1mm solid blue;
+  border-top: none;
+  border-bottom: none;    text-align: right;
+  background-color: purple;
+  background-image:url(https://images8.alphacoders.com/403/403441.gif);
+  background-blend-mode: color-burn;
+
+}
+/* visited link */
+a:visited {
+  color: white;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+     text-decoration: none;
+     font-size: 200%;
+
+
+}
+
+#icons:hover{
+  font-size: 60px;
+
+}
+#icon:hover{
+  font-size: 60px;
+  margin-right: 100px;
+
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    background-color: grey;
+
+
+}
+
+a:link {
+    color: blue;
+
+  }
+
+
+/* +++++++++++++++++++++++++++++++++++++Nav styling end++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.abt_img{
+  background-color: purple;
+  padding-left: 10px;
+  border: 0.3mm solid blue;
+  background-image:url(https://images8.alphacoders.com/403/403441.gif);
+  color: white;
+  font-family: Indie,cursive;
+  margin-left:10px;
+  background-blend-mode: color-burn;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  height: 400px;
+
+}
+
+#abt{
+  width: 59%;
+  float: left;
+}
+
+#img{
+  width: 20%;
+  float: left;
+  height: 50%;
+
+
+}
+
+.round{
+  float: left;
+  border-radius: 100px;
+  height: 300px;
+  width: 30%;
+
+}
+
+.flo{
+  width: 75%;
+}
+
+
+}
+
+#edu{
+  float: left;
+  width: 98%;
+  background-color: purple;
+  border:0.3mm solid blue;
+  padding-left: 10px;
+  background-image: url(https://images8.alphacoders.com/403/403441.gif);
+  margin: 10px;
+  background-blend-mode: color-burn;
+  color:white;
+
+}
+
+#exp{
+  float: left;
+  width: 98%;
+  color:;
+  padding-left: 10px;
+  background-color:purple;
+  background-image: url(https://images8.alphacoders.com/403/403441.gif);
+  margin: 10px;
+  border: 0.3mm solid blue;
+  background-blend-mode: color-burn;
+  color:white;
+
+}
+
+#con{
+  background-color: purple;
+  float: left;
+  width: 98%;
+  padding-left: 10px;
+  border:0.3mm solid blue;
+  background-image: url(https://images8.alphacoders.com/403/403441.gif);
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-blend-mode: color-burn;
+  color:white;
+
+}
+
+#icons{
+  font-size: 50px;
+  color: blue;
+  margin: 10px;
+
+}
+
+#icon{
+  font-size: 50px;
+    color: blue;
+
+}
+
+footer{
+  width: 100%;
+  float: left;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR);
+
+}
+/* ==================================animation for footer========================================= */
+#animation{
+    width: 100%;
+    height: 50px;
+    background: none;
+    position: relative;
+    -webkit-animation: mymove 0s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 15s infinite;
+    color: white;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 1080px;}
+}
+
+@keyframes mymove {
+    from {left: -1280px;}
+    to {left: 0px;}
+}
+
+}
+
+============================================================================================
+/* media query */
