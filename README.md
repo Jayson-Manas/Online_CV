@@ -1,4 +1,4 @@
-# Online_CV_Update2
+# Online_CV
 media query still needs alot of work.
 about section needs editing.
 professional profile picture needs to be added
