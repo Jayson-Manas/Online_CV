@@ -118,7 +118,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    background-color: #C4BBB8;
+    background-color: #C7CCDB;
+    color: #011638;
      /* text-decoration: none; */
      /* font-size: 110%; */
 
