@@ -1,7 +1,7 @@
 /* @media screen and (min-width: 320px) { */
 
 body{
-  background-color: black;
+  background-color: #011638;
   /* margin-left:2px ; */
   /* min-width: 1000px; */
   /* max-width: 1400px; */
@@ -10,10 +10,11 @@ body{
   letter-spacing: 1px;
   word-spacing: 1px;
   color:white;
-  font-family: Indie+flower;
+  font-family: 'Raleway', sans-serif;
+  ;
   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR); */
   background-size: cover;
-
+margin: 3em;
 }
 
 header{
@@ -22,7 +23,7 @@ header{
 }
 
 #abt1{
-  text-align: right;
+  text-align: center;
   color: white;
   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR); */
   background-repeat: repeat;
@@ -31,23 +32,37 @@ header{
 
 .header{
     opacity: none;
-    position: fixed;
+    position: sticky;
     top: 0;
     transition: top 0.3s;
 
   }
 
 #fixed{
-    position: fixed;
+    /* position: fixed;
     top: 0;
     transition: top 0.3s;
-    /* overflow: visible; */
-    background-color:;
-    opacity: 20%;
+    overflow: visible;
+    background-color:#011638;
+    opacity: 20%; */
     /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR); */
 
 
   }
+  header{
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 1;
+    background-color: #011638;
+    height: 15%;
+    width: 100%
+  
+
+  }
+   
+  
 
 
 /* ++++++++++++++++++++++++++++++++++Nav styling start+++++++++++++++++++++ */
@@ -59,7 +74,7 @@ nav{
   font-size: 30px;
   border-left: none;
   border-right: none;
-  text-align: right;
+  text-align: left;
   /* background-color:; */
   /* padding: 3px; */
   /* margin: 2px; */
@@ -80,18 +95,19 @@ nav{
   padding-left: 10px;
   padding-right: 15px; */
   font-size: 20px;
-  border-left: 20px;
-  border-right: 20px;
-  border-color: blue;
+  /* border-left: 20px; */
+  /* border-right: 20px; */
+  border-color: #4C5B61;
   border-width: thick;
   text-decoration: none;
   text-align:right;
-  border: 0.1mm solid blue;
-  border-top: none;
-  border-bottom: none;    text-align: right;
-  background-color: purple;
-  background-image:url(https://images8.alphacoders.com/403/403441.gif);
-  background-blend-mode: color-burn;
+  border: 0.1mm solid #4C5B61;
+  /* border-top: none; */
+  /* border-bottom: none;    text-align: right; */
+  /* background-color: #829191; */
+  /* background-image:url(https://images8.alphacoders.com/403/403441.gif); */
+  /* background-blend-mode: color-burn; */
+  border: none;
 
 }
 /* visited link */
@@ -102,9 +118,9 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: red;
-     text-decoration: none;
-     font-size: 200%;
+    background-color: #C4BBB8;
+     /* text-decoration: none; */
+     /* font-size: 110%; */
 
 
 }
@@ -128,25 +144,31 @@ a:active {
 }
 
 a:link {
-    color: blue;
+    color: white;
 
   }
 
 
 /* +++++++++++++++++++++++++++++++++++++Nav styling end+++++++++++++++++++++++++++++ */
 .abt_img{
-  background-color: purple;
+  top: 10%;
+  background-color:#C4BBB8;
   /* padding-left: 10px; */
-  border: 0.3mm solid blue;
-  background-image:url(https://images8.alphacoders.com/403/403441.gif);
-  color: white;
-  font-family: serif;
-  /* margin-left:10px; */
-  background-blend-mode: color-burn;
-  /* padding-top: 20px;
-  margin-bottom: 20px;
-  height: 400px; */
+  border: 1mm solid white;
+  /* background-image:url(https://images8.alphacoders.com/403/403441.gif); */
+  color: #282e34;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
+  margin-left: 1em;
+  margin-right: 1em;
+  /* background-blend-mode: color-burn; */
+  /* padding-top: 20px;
+  /* height: 400px;  */
+
+  margin-bottom: 1em;
 }
 
 #abt{
@@ -187,13 +209,13 @@ a:link {
 #edu{
   /* float: left; */
   /* width: 98%; */
-  background-color: purple;
-  border:0.3mm solid blue;
+  background-color: #C4BBB8;
+  border:1mm solid #4C5B61;
   /* padding-left: 10px; */
-  background-image: url(https://images8.alphacoders.com/403/403441.gif);
-  /* margin: 10px; */
-  background-blend-mode: color-burn;
-  color:white;
+  /* background-image: url(https://images8.alphacoders.com/403/403441.gif); */
+   margin: 1em;
+  /* background-blend-mode: color-burn; */
+  color:#282e34;
 
 }
 
@@ -202,39 +224,39 @@ a:link {
   /* width: 98%; */
   /* color:; */
   /* padding-left: 10px; */
-  background-color:purple;
-  background-image: url(https://images8.alphacoders.com/403/403441.gif);
-  /* margin: 10px; */
-  border: 0.3mm solid blue;
-  background-blend-mode: color-burn;
-  color:white;
+  background-color:#C4BBB8;
+  /* background-image: url(https://images8.alphacoders.com/403/403441.gif); */
+  margin: 1em;
+  border: 1mm solid #4C5B61;
+  /* background-blend-mode: color-burn; */
+  color:#282e34;
 
 }
 
 #con{
-  background-color: purple;
+  background-color: #C4BBB8;
   /* float: left;
   width: 98%;
   padding-left: 10px; */
-  border:0.3mm solid blue;
-  background-image: url(https://images8.alphacoders.com/403/403441.gif);
+  border:1mm solid #4C5B61;
+  /* background-image: url(https://images8.alphacoders.com/403/403441.gif); */
   background-repeat: no-repeat;
-  /* margin: 10px; */
-  background-blend-mode: color-burn;
-  color:white;
+  margin: 1em;
+  /* background-blend-mode: color-burn; */
+  color:#282e34;
 
 }
 
 #icons{
   font-size: 50px;
-  color: blue;
-  /* margin: 10px; */
+  color: white;
+  margin: 10px;
 
 }
 
 #icon{
   font-size: 50px;
-    color: blue;
+    color: white;
 
 }
 
@@ -242,17 +264,21 @@ footer{
   /* width: 100%;
   float: left; */
   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR); */
-
+  bottom: 0;
+  position: sticky;
+  height: 8%;
+  background-color: #011638;
 }
 /* ==================================animation for footer========================================= */
 #animation{
-    width: 100%;
-    height: 50px;
+    /* width: 100%; */
+    /* height: 1em; */
     background: none;
     position: relative;
     -webkit-animation: mymove 0s infinite; /* Safari 4.0 - 8.0 */
     animation: mymove 15s infinite;
     color: white;
+   
 }
 
 /* Safari 4.0 - 8.0 */
