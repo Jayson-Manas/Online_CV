@@ -1,10 +1,10 @@
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) { */
 
 body{
   background-color: black;
-  margin-left:2px ;
-  min-width: 1000px;
-  max-width: 1400px;
+  /* margin-left:2px ; */
+  /* min-width: 1000px; */
+  /* max-width: 1400px; */
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -41,7 +41,7 @@ header{
     position: fixed;
     top: 0;
     transition: top 0.3s;
-    overflow: visible;
+    /* overflow: visible; */
     background-color:;
     opacity: 20%;
     /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR); */
@@ -53,18 +53,18 @@ header{
 /* ++++++++++++++++++++++++++++++++++Nav styling start+++++++++++++++++++++ */
 nav{
   text-decoration: none;
-  float: none;
-  width: 100%;
-  height: 50px;
-  font-size: 30;
+  /* float: none; */
+  /* width: 100%; */
+  /* height: 50px; */
+  font-size: 30px;
   border-left: none;
   border-right: none;
   text-align: right;
-  background-color:;
-  padding: 3px;
-  margin: 2px;
-  height: 100%;
-  padding-right: 0px;
+  /* background-color:; */
+  /* padding: 3px; */
+  /* margin: 2px; */
+  /* height: 100%; */
+  /* padding-right: 0px; */
 
 }
 
@@ -74,11 +74,11 @@ nav{
 
 /* individual styling of nav elements */
 .nav_elem{
-  margin:30px;
+  /* margin:30px;
   width: 300px;
   height: 800px;
   padding-left: 10px;
-  padding-right: 15px;
+  padding-right: 15px; */
   font-size: 20px;
   border-left: 20px;
   border-right: 20px;
@@ -136,75 +136,75 @@ a:link {
 /* +++++++++++++++++++++++++++++++++++++Nav styling end+++++++++++++++++++++++++++++ */
 .abt_img{
   background-color: purple;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   border: 0.3mm solid blue;
   background-image:url(https://images8.alphacoders.com/403/403441.gif);
   color: white;
   font-family: serif;
-  margin-left:10px;
+  /* margin-left:10px; */
   background-blend-mode: color-burn;
-  padding-top: 20px;
+  /* padding-top: 20px;
   margin-bottom: 20px;
-  height: 400px;
+  height: 400px; */
 
 }
 
 #abt{
-  width: 59%;
-  float: left;
+  /* width: 59%;
+  float: left; */
 }
 
 #img{
-  width: 20%;
+  /* width: 20%;
   float: left;
-  height: 50%;
+  height: 50%; */
 
 
 }
 
 .round{
-  float: left;
+  /* float: left; */
   /* border-radius: 100px; */
-  height: 300px;
-  width: 30%;
+  /* height: 300px; */
+  /* width: 30%; */
 
 }
 
 .flo{
-  width: 75%;
+  /* width: 75%; */
 }
 
 
-}
+/* } */
 /* ================================================end======================================== */
-@media screen and (max-width: 993px) {
+/* @media screen and (max-width: 993px) {
   .abt_img{
     display: grid;
     grid-template-columns: 1fr;
   }
-}
+} */
 
 #edu{
-  float: left;
-  width: 98%;
+  /* float: left; */
+  /* width: 98%; */
   background-color: purple;
   border:0.3mm solid blue;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   background-image: url(https://images8.alphacoders.com/403/403441.gif);
-  margin: 10px;
+  /* margin: 10px; */
   background-blend-mode: color-burn;
   color:white;
 
 }
 
 #exp{
-  float: left;
-  width: 98%;
-  color:;
-  padding-left: 10px;
+  /* float: left; */
+  /* width: 98%; */
+  /* color:; */
+  /* padding-left: 10px; */
   background-color:purple;
   background-image: url(https://images8.alphacoders.com/403/403441.gif);
-  margin: 10px;
+  /* margin: 10px; */
   border: 0.3mm solid blue;
   background-blend-mode: color-burn;
   color:white;
@@ -213,13 +213,13 @@ a:link {
 
 #con{
   background-color: purple;
-  float: left;
+  /* float: left;
   width: 98%;
-  padding-left: 10px;
+  padding-left: 10px; */
   border:0.3mm solid blue;
   background-image: url(https://images8.alphacoders.com/403/403441.gif);
   background-repeat: no-repeat;
-  margin: 10px;
+  /* margin: 10px; */
   background-blend-mode: color-burn;
   color:white;
 
@@ -228,7 +228,7 @@ a:link {
 #icons{
   font-size: 50px;
   color: blue;
-  margin: 10px;
+  /* margin: 10px; */
 
 }
 
@@ -239,8 +239,8 @@ a:link {
 }
 
 footer{
-  width: 100%;
-  float: left;
+  /* width: 100%;
+  float: left; */
   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR); */
 
 }
