@@ -156,7 +156,7 @@ a:link {
   background-color:#C7CCDB;
   background-size: cover;
   /* padding-left: 10px; */
-  border: 1mm solid white;
+  border: 1mm solid #4C5B61;
   
   background-repeat: no-repeat;
   color: #282e34;
@@ -270,14 +270,14 @@ a:link {
 
 #icons{
   font-size: 50px;
-  color: white;
+  color: #4C5B61;
   margin: 10px;
 
 }
 
 #icon{
   font-size: 50px;
-    color: white;
+    color: #4C5B61;
 
 }
 
@@ -286,9 +286,10 @@ footer{
   float: left; */
   /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylxC7EVIZZ7UavkCCabrvQgOE3gT7YkHck9JOqDit5mZbd2OR); */
   bottom: 0;
-  position: sticky;
+  position: fixed;
   height: 8%;
   background-color: #011638;
+  width: 100%;
 }
 /* ==================================animation for footer========================================= */
 #animation{
@@ -297,20 +298,20 @@ footer{
     background: none;
     position: relative;
     -webkit-animation: mymove 0s infinite; /* Safari 4.0 - 8.0 */
-    animation: mymove 15s infinite;
+    animation: mymove 20s infinite;
     color: white;
    
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 1080px;}
+    from {left: 0;}
+    to {left: 100%;}
 }
 
 @keyframes mymove {
-    from {left: -1280px;}
-    to {left: 0px;}
+    from {left: -100%;}
+    to {left: 100%;}
 }
 
 
