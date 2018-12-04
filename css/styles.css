@@ -164,6 +164,13 @@ a:link {
   color:#282e34;
 
 }
+#skills{
+  background-color:#C7CCDB;
+  background-repeat: no-repeat;
+  margin: 1em;
+  border: 1mm solid #4C5B61;
+  color:#282e34;
+}
 
 #con{
   background-color: #C7CCDB;
@@ -190,7 +197,7 @@ a:link {
 
 footer{
   bottom: 0;
-  position: fixed;
+  /* position: fixed; */
   height: 8%;
   background-color: #011638;
   width: 100%;
@@ -212,8 +219,9 @@ footer{
 }
 
 @keyframes mymove {
-    from {left: -100%;}
-    to {left: 100%;}
+    from {left: 0;}
+    to {left: 0;}
+    
 }
 
 
@@ -221,3 +229,46 @@ footer{
 
 /* ==============================================end of animation============================================== */
 /* media query */
+
+/* //////////////////carousel///////////////////////// */
+.carousel{
+    /* background-color: black; */
+    width: 100%;
+    height: auto;
+}
+
+.container_carousel{
+    display: block;
+    margin: 1em;
+    height: 178px;
+    border: 1mm solid #4C5B61;
+    overflow: hidden;
+    background-color: #4C5B61;
+}
+
+.sub{
+    height: 180px;
+    width: 5180px;
+    background-color: #4C5B61;
+
+    animation-name: carousel;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative; left:100%;
+}
+.sub img{
+    display: inline;
+    width: auto;
+    height: 180px;
+    margin-right:50px;
+}
+
+
+@keyframes carousel{
+    100%{
+        position: relative;left:-4580px;
+    }
+}
+/* //////////////////carousel///////////////////////// */
+
