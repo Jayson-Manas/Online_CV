@@ -1,5 +1,8 @@
 
-
+html{
+  scroll-behavior: smooth;
+  transition: 5s;
+}
 body{
   background-color: #011638;
   font-size: 14px;
