@@ -153,22 +153,35 @@ a:link {
 .abt_img{
   top: 10%;
   background-color:#C4BBB8;
+  background-size: cover;
   /* padding-left: 10px; */
   border: 1mm solid white;
-  /* background-image:url(https://images8.alphacoders.com/403/403441.gif); */
+  
+  background-repeat: no-repeat;
   color: #282e34;
   font-family: 'Raleway', sans-serif;
   margin-top: 8%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
 
   margin-left: 1em;
   margin-right: 1em;
-  /* background-blend-mode: color-burn; */
   /* padding-top: 20px;
   /* height: 400px;  */
 
   margin-bottom: 1em;
+  /* z-index: 1; */
+}
+.png{
+  /* background-image:url(../images/jm_logo\ \(1\).png); */
+  height: auto;
+  width:100%;
+  background-color: transparent;
+  
+
+  
+
 }
 
 #abt{
@@ -213,6 +226,9 @@ a:link {
   border:1mm solid #4C5B61;
   /* padding-left: 10px; */
   /* background-image: url(https://images8.alphacoders.com/403/403441.gif); */
+  /* background-image:url(../images/jm_logo\ \(1\).png); */
+  background-position-x: 4em;
+  
    margin: 1em;
   /* background-blend-mode: color-burn; */
   color:#282e34;
@@ -226,6 +242,8 @@ a:link {
   /* padding-left: 10px; */
   background-color:#C4BBB8;
   /* background-image: url(https://images8.alphacoders.com/403/403441.gif); */
+  /* background-image:url(../images/jm_logo\ \(1\).png); */
+  background-repeat: no-repeat;
   margin: 1em;
   border: 1mm solid #4C5B61;
   /* background-blend-mode: color-burn; */
@@ -240,6 +258,8 @@ a:link {
   padding-left: 10px; */
   border:1mm solid #4C5B61;
   /* background-image: url(https://images8.alphacoders.com/403/403441.gif); */
+  /* background-image:url(../images/jm_logo\ \(1\).png); */
+  background-repeat: no-repeat;
   background-repeat: no-repeat;
   margin: 1em;
   /* background-blend-mode: color-burn; */
