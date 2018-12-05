@@ -7,36 +7,88 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <style>
-      .carousel-inner > .item > img,
-      .carousel-inner > .item > a > img {
-          width: 70%;
-          margin: auto;
-          
-          
-      }
+     @media screen and (min-width:800px){
+       /* nav{
+         display: inline-block;
+       }
+       .menu{
+         display: inline-block;
+         
+       }
+       .sidenav{
+         width: 70%;
+         height: auto;
+       } */
+     }
+
+       
+                .sidenav {
+                    height: 100%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 0;
+                    top: 0;
+                    left: 0;
+                    background-color: #111;
+                    overflow-x:hidden;
+                    transition: 0.5s;
+                    padding-top: 60px;
+                    
+                }
+                
+                .sidenav a {
+                    padding: 8px 8px 8px 32px;
+                    text-decoration: none;
+                    font-size: 25px;
+                    color: #818181;
+                    display: block;
+                    transition: 0.3s;
+                }
+                
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+                
+                .sidenav .closebtn {
+                    position: absolute;
+                    top: 0;
+                    right: 25px;
+                    font-size: 36px;
+                    margin-left: 50px;
+                }
+                
+                @media screen and (max-height: 450px) {
+                  .sidenav {padding-top: 15px;}
+                  .sidenav a {font-size: 18px;}
+                }
       </style>
    </head>
   <body>
-    <div class="phone">
+    <div id="main">
 
      
       <header>
         <nav>
-
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <ul id="fixed">
-            <a class="nav_elem" href="#">Home</a>
+            <a class="nav_elem" href="#">About</a>
                         
             <a  class="nav_elem" href="#edu1">Education</a>
 
             <a  class="nav_elem" href="#skill">Skills</a>
             
-            <a  class="nav_elem" href="#exp">Experience</a>
+            <a  class="nav_elem" href="#exp1">Experience</a>
             
-            <a  class="nav_elem" href="#con">Contact</a>
+            <a  class="nav_elem" href="#con1">Contact</a>
           </ul>
+        </div>
+        <span id="menu"style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+        
           </nav>
-
+          
         <h1 id="abt1">Curriculum Vitae of Jayson Manas</h1>
 
 
@@ -81,32 +133,7 @@
 
         <section id="edu">
           <h2>Education</h2>
-          <ul>
-            Lentegeur Senior Secondary School
-
-          <ul>
-            Successfully completed grade 12 as the top achiever 2013.
-
-          </ul>
-            <br>
-            Stellenbosch University
-            <ul>
-             Course:Mechatronics Engineering (Extended Degree) 2014-2015
-             <br>
-             Relevent Subjects Completed:<ul>
-               <li>
-                 Engineering Mathematics 115
-
-               </li>
-               <li>
-                 Professional Comunication Skills
-
-               </li>
-
-             </ul>
-
-            </ul>
-            <br>
+        <ul>
             Cape Peninsula University of Technology
             <ul>
               Course:Industial and Systems Engineering 2016-2018
@@ -165,6 +192,32 @@
 
 
               </ul>
+            <br>
+            Stellenbosch University
+            <ul>
+             Course:Mechatronics Engineering (Extended Degree) 2014-2015
+             <br>
+             Relevent Subjects Completed:<ul>
+               <li>
+                 Engineering Mathematics 115
+
+               </li>
+               <li>
+                 Professional Comunication Skills
+
+               </li>
+
+             </ul>
+
+            </ul>
+            <br>
+
+              Lentegeur Senior Secondary School
+
+              <ul>
+                Successfully completed grade 12 as the top achiever 2013.
+    
+              </ul>
             </ul>
             <br>
             
@@ -193,26 +246,30 @@
         <div class="carousel">
           <div class="container_carousel">
              <div class="sub">
-                <img src="images/carousel1.png"  alt="">
-                <img src="images/carousel2.png" alt="">
-                <img src="images/carousel3.png"  alt="">
-                <img src="images/carousel4.png"  alt="">
-                <img src="images/carousel5.png" alt="">
-                <img src="images/carousel6.png" alt="">
-                <img src="images/carousel7.png" alt="">
-                <img src="images/carousel8.png"  alt="">
-                <img src="images/carousel9.png"  alt="">
-                <img src="images/carousel10.png" alt="">
-                <img src="images/carousel11.png" alt="">
-                <img src="images/carousel12.png" alt="">
-                <img src="images/carousel13.png" alt="">
-                <img src="images/carousel14.png" alt="">
-                <img src="images/carousel15.png"  alt="">
-                <img src="images/carousel16.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/javascript.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/html-5-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/css3.png" alt="">
+                <img src="https://cdn4.iconfinder.com/data/icons/blackicon/54/sass_icon-128.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/jquery-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/git-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/javascript.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/html-5-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/css3.png" alt="">
+                <img src="https://cdn4.iconfinder.com/data/icons/blackicon/54/sass_icon-128.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/jquery-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/git-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/javascript.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/html-5-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/css3.png" alt="">
+                <img src="https://cdn4.iconfinder.com/data/icons/blackicon/54/sass_icon-128.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/jquery-filled.png" alt="">
+                <img src="https://img.icons8.com/ios/2x/git-filled.png" alt="">
+          <p id="exp1"></p>
+              
              </div>
           </div>
       </div>
-        </div>
+      </div>
       
         
 
@@ -253,30 +310,80 @@
 
         </section>
 
-        <section id="con">
-          <h2>Contact</h2>
-          <ul>
-
-             <!-- <a href="#"class=""><span class="fab fa-github" aria-hidden="true"></span></a> -->
-             <a href="https://www.google.com/intl/en-GB/gmail/about/"id="icons"><i class="fas fa-envelope-square"></i></a>
-             <a href="https://github.com/Jayson-Manas"id=icon><i class="fab fa-github"></i></a>
-          </ul>
-
-
-        </section>
 
 
       </div>
-    </div>
 
       <br>
-      <footer>
+      
+      <footer class="footer-distributed">
 
-        <div id="animation">
-        <p> &copy; 2018 JM Productions |&copy; 2018 JM Productions |&copy; 2018 JM Productions |&copy; 2018 JM Productions |&copy; 2018 JM Productions|&copy; 2018 JM Productions|&copy; 2018 JM Productions</p>
-
+        <div class="footer-right">
+  
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a href="##"onclick="myFunction()"><i class="fas fa-envelope-square"></i></a>
+          <a href="##"onclick="myFunction2()"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://github.com/Jayson-Manas"><i class="fa fa-github"></i></a>
+          <br>
+          <br>
+           <p id="cell">Cell: 0815996231 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp0734681917</p>
+           <br><br>
+           <p id="email">Email: <br>jaysonmanas@gmail.com <br> 214033406@mycput.ac.za</p>
         </div>
+  
+        <div id="con1" class="footer-left">
+          <h2>Related Projects</h2>
+  
+          <p class="footer-links">
+            <a href=" https://jayson-manas.github.io/code4CT/index.html">code4ct</a>
+            ·
+            <a href=" https://jayson-manas.github.io/JonChretien_project_2/index.html">Jon Chretien</a>
+            ·
+            <a href="https://jayson-manas.github.io/side_project_2/index.html">Side Project</a>
+            <!-- · -->
+            <!-- <a href="#">About</a>
+            ·
+            <a href="#">Faq</a>
+            ·
+            <a href="#">Contact</a> -->
+          </p>
+  
+          <p>&copy; 2018 JM Productions</p>
+        </div>
+  
       </footer>
+     
+    </div>
+  
+  <script>
+document.getElementById("cell").style.display = "none";
+function myFunction2() {
+    document.getElementById("cell").style.display = "inline";
+    
+
+
+}y = "inline";
+ 
+document.getElementById("email").style.display = "none";
+function myFunction() {
+    document.getElementById("email").style.display = "inline";
+}y = "inline";
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "#011638";
+    document.getElementById("menu").style.display="none";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+    document.getElementById("menu").style.display="inline";
+
+}
+  </script>
     
     </body>
 </html>
