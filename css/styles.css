@@ -259,7 +259,7 @@ footer{
 }
 
 .sub{
-    height: 180px;
+    height: 160px;
     width: 5180px;
     background-color: #4C5B61;
 
@@ -272,9 +272,14 @@ footer{
 .sub img{
     display: inline;
     width: auto;
-    height: 180px;
+    height: 160px;
     margin-right:50px;
+    font-size: 12em;
+
+
 }
+/* i{
+} */
 
 
 @keyframes carousel{
