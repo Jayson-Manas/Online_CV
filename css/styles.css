@@ -182,61 +182,6 @@ a:link {
 
 }
 
-#con{
-  background-color: #C7CCDB;
-  border:1mm solid #4C5B61;
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  margin: 1em;
-  color:#282e34;
-  padding: 1em;
-
-
-}
-
-#icons{
-  font-size: 50px;
-  color: #4C5B61;
-  margin: 10px;
-
-}
-
-#icon{
-  font-size: 50px;
-    color: #4C5B61;
-
-}
-
-footer{
-  bottom: 0;
-  /* position: fixed; */
-  height: 8%;
-  background-color: #011638;
-  width: 100%;
-}
-/* ==================================animation for footer========================================= */
-#animation{
-     background: none;
-    position: relative;
-    -webkit-animation: mymove 0s infinite;
-    animation: mymove 20s infinite;
-    color: white;
-   
-}
-
-
-@-webkit-keyframes mymove {
-    from {left: 0;}
-    to {left: 100%;}
-}
-
-@keyframes mymove {
-    from {left: 0;}
-    to {left: 0;}
-    
-}
-
-
 
 
 /* ==============================================end of animation============================================== */
@@ -244,7 +189,7 @@ footer{
 
 /* //////////////////carousel///////////////////////// */
 .carousel{
-    /* background-color: black; */
+    
     width: 100%;
     height: auto;
 }
@@ -278,8 +223,7 @@ footer{
 
 
 }
-/* i{
-} */
+
 
 
 @keyframes carousel{
@@ -349,6 +293,18 @@ footer{
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
+  .footer-distributed{
+    background-color: #011638;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 20px sans-serif;
+  
+    padding:0;
+    margin-top: 80px;
+  }
+  
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-right{
@@ -359,7 +315,9 @@ footer{
 		float: none;
 		margin: 0 auto 20px;
 	}
-
+#email{
+  font-size: 1em;
+}
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
 	}
