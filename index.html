@@ -9,22 +9,70 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <style>
-      .carousel-inner > .item > img,
-      .carousel-inner > .item > a > img {
-          width: 70%;
-          margin: auto;
-          
-          
-      }
+     @media screen and (min-width:800px){
+       /* nav{
+         display: inline-block;
+       }
+       .menu{
+         display: inline-block;
+         
+       }
+       .sidenav{
+         width: 70%;
+         height: auto;
+       } */
+     }
+
+       
+                .sidenav {
+                    height: 100%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 0;
+                    top: 0;
+                    left: 0;
+                    background-color: #111;
+                    overflow-x:hidden;
+                    transition: 0.5s;
+                    padding-top: 60px;
+                    
+                }
+                
+                .sidenav a {
+                    padding: 8px 8px 8px 32px;
+                    text-decoration: none;
+                    font-size: 25px;
+                    color: #818181;
+                    display: block;
+                    transition: 0.3s;
+                }
+                
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+                
+                .sidenav .closebtn {
+                    position: absolute;
+                    top: 0;
+                    right: 25px;
+                    font-size: 36px;
+                    margin-left: 50px;
+                }
+                
+                @media screen and (max-height: 450px) {
+                  .sidenav {padding-top: 15px;}
+                  .sidenav a {font-size: 18px;}
+                }
       </style>
    </head>
   <body>
-    <div class="phone">
+    <div id="main">
 
      
       <header>
         <nav>
-
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <ul id="fixed">
             <a class="nav_elem" href="#">Home</a>
                         
@@ -36,8 +84,11 @@
             
             <a  class="nav_elem" href="#con1">Contact</a>
           </ul>
+        </div>
+        <span id="menu"style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+        
           </nav>
-
+          
         <h1 id="abt1">Curriculum Vitae of Jayson Manas</h1>
 
 
@@ -262,7 +313,6 @@
 
 
       </div>
-    </div>
 
       <br>
       
@@ -274,7 +324,7 @@
           <a href="##"onclick="myFunction()"><i class="fas fa-envelope-square"></i></a>
           <a href="##"onclick="myFunction2()"><i class="fab fa-whatsapp"></i></a>
           <a href="https://github.com/Jayson-Manas"><i class="fa fa-github"></i></a>
-           <p id="cell">Cell: 0815996231 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp0734681917</p>
+           <p id="cell">Cell: 0815996231 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp0734681917</p>
            <p id="email">Email: <br>jaysonmanas@gmail.com <br> 214033406@mycput.ac.za</p>
         </div>
   
@@ -299,6 +349,8 @@
         </div>
   
       </footer>
+     
+    </div>
   
   <script>
 document.getElementById("cell").style.display = "none";
@@ -313,6 +365,21 @@ document.getElementById("email").style.display = "none";
 function myFunction() {
     document.getElementById("email").style.display = "inline";
 }y = "inline";
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "#011638";
+    document.getElementById("menu").style.display="none";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+    document.getElementById("menu").style.display="inline";
+
+}
   </script>
     
     </body>

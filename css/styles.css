@@ -13,6 +13,7 @@ body{
   font-family: 'Raleway', sans-serif;
   background-size: cover;
   margin: 3em;
+  margin-left: 0;
 }
 
 header{
@@ -21,7 +22,7 @@ header{
 }
 
 #abt1{
-  text-align: center;
+  text-align: left;
   color: white;
   background-repeat: repeat;
 
@@ -39,11 +40,11 @@ header{
     position: fixed;
     top: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
     z-index: 1;
     background-color: #011638;
     height: 15%;
-    width: 100%
+    width: 100%;
   
 
   }
@@ -71,9 +72,10 @@ nav{
   border-color: #4C5B61;
   border-width: thick;
   text-decoration: none;
-  text-align:right;
+  text-align:left;
   border: 0.1mm solid #4C5B61;
   border: none;
+  display: inline-block;
 
 }
 /* visited link */
@@ -146,6 +148,10 @@ a:link {
   width: 60%;
   margin: 8%;
   opacity: 0.9;
+}
+
+.round:hover{
+  width: 400px;
 }
 
 
@@ -223,6 +229,13 @@ a:link {
 
 
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+    
+    
+}
 
 
 
@@ -241,7 +254,7 @@ a:link {
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-
+  margin-left: 1em;
 	padding: 45px 50px;
 	margin-top: 80px;
 }
@@ -316,7 +329,7 @@ a:link {
 		margin: 0 auto 20px;
 	}
 #email{
-  font-size: 1em;
+  font-size: 0.8em;
 }
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
