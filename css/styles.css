@@ -255,19 +255,19 @@ footer{
     height: 178px;
     border: 1mm solid #4C5B61;
     overflow: hidden;
-    background-color: #4C5B61;
+    background-color: #ffffff;
 }
 
 .sub{
     height: 160px;
     width: 5180px;
-    background-color: #4C5B61;
+    background-color: #ffffff;
 
     animation-name: carousel;
     animation-duration: 40s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    position: relative; left:100%;
+    position: relative; left:50%;
 }
 .sub img{
     display: inline;
