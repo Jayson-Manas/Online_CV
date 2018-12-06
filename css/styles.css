@@ -40,7 +40,7 @@ header{
     position: fixed;
     top: 0;
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     z-index: 1;
     background-color: #011638;
     height: 15%;
