@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <style>
      @media screen and (max-width:600px){
-       #abt1{
-         display: none;
+      #abt1{
+         font-size: 1em;
        }
        .abt_img{
          display: grid;
          grid-template-columns: 1fr;
-         margin-top: 25%;
+         /* margin-top: 25%; */
+         
        }
+       
        .round{
         margin: 19%;
        }
@@ -38,6 +40,13 @@
        }
      }
 
+ 
+     @media screen and (min-width: 601px){
+      #abt1 {
+        font-size: 19px;
+}
+     }
+   
        
 .topnav {
   overflow: hidden;
@@ -372,7 +381,7 @@
         <div class="footer-right">
   
           <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-          <a href="##"onclick="myFunction()"><i class="fas fa-envelope-square"></i></a>
+          <a href="##"onclick="myFunction1()"><i class="fas fa-envelope-square"></i></a>
           <a href="##"onclick="myFunction2()"><i class="fab fa-whatsapp"></i></a>
           <a href="https://github.com/Jayson-Manas"><i class="fa fa-github"></i></a>
           <br>
@@ -411,7 +420,7 @@ function myFunction2() {
 }y = "inline";
  
 document.getElementById("email").style.display = "none";
-function myFunction() {
+function myFunction1() {
     document.getElementById("email").style.display = "inline";
 }y = "inline";
 
