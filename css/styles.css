@@ -208,14 +208,14 @@ a:link {
 .container_carousel{
     display: block;
     margin: 1em;
-    height: 178px;
+    height: 160px;
     border: 1mm solid #4C5B61;
     overflow: hidden;
     background-color: #ffffff;
 }
 
-.sub{
-    height: 160px;
+.sub_container{
+    height: 140px;
     width: 5180px;
     background-color: #ffffff;
 
@@ -225,17 +225,19 @@ a:link {
     animation-iteration-count: infinite;
     position: relative; left:50%;
 }
-.sub img{
+.sub_container img{
     display: inline;
-    width: auto;
-    height: 160px;
     margin-right:50px;
     font-size: 12em;
+   
 
 
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner .item img{
+  width: 70%;
+    margin: auto;
+}
+.carousel-inner .item  a  img {
     width: 70%;
     margin: auto;
     
