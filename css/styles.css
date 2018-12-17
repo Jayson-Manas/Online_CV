@@ -134,7 +134,7 @@ a:link {
   margin-left: 1em;
   margin-right: 1em;
   margin-bottom: 1em;
-  padding: 1em;
+  padding: 5em;
 
   }
 
@@ -154,10 +154,10 @@ a:link {
   opacity: 0.9;
 }
 
-.round:hover{
+/* .round:hover{
   width: 400px;
   height: 400px;
-}
+} */
 
 
 /* ================================================end======================================== */
@@ -168,7 +168,7 @@ a:link {
   background-position-x: 4em;
   margin: 1em;
   color:#282e34;
-  padding: 1em;
+  padding: 5em;
 
 
 }
@@ -179,7 +179,7 @@ a:link {
   margin: 1em;
   border: 1mm solid #4C5B61;
   color:#282e34;
-  padding: 1em;
+  padding: 5em;
 
 
 }
@@ -189,7 +189,7 @@ a:link {
   margin: 1em;
   border: 1mm solid #4C5B61;
   color:#282e34;
-  padding: 1em;
+  padding: 5em;
 
 }
 
@@ -285,7 +285,7 @@ a:link {
 .footer-distributed p.footer-links a{
 	display:inline-block;
 	line-height: 1.8;
-	text-decoration: none;
+	/* text-decoration: none; */
 	color:  inherit;
 }
 
