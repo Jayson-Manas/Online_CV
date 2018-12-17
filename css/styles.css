@@ -10,7 +10,7 @@ body{
   letter-spacing: 1px;
   word-spacing: 1px;
   color:white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway',Fontawesome, sans-serif;
   background-size: cover;
   margin: 3em;
   margin-left: 0;
@@ -309,6 +309,7 @@ a:link {
 
 	margin-left: 3px;
 }
+
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
