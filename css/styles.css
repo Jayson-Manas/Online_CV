@@ -149,8 +149,8 @@ a:link {
 
 .round{
   height: auto;
-  width: 60%;
-  margin: 8%;
+  width: 75%;
+  margin-left: 15%;
   opacity: 0.9;
 }
 
@@ -367,7 +367,7 @@ a:link {
          margin-top: 0;
        }
        #edu{
-         padding: 0;
+         /* padding: 0; */
        }
        .container_carousel{
          margin: 0;
